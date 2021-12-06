@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Buglle Circus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="headerNavOuter">
+        <div id="ridingOn">
+          <p>Ride<br>
+             on<br>
+             good<br>
+             vibrations
+          </p>
+        </div>
+        <nav class="headerNav">
+          <ul class="navList">
+            <li class="navItem">
+              <a href="#home" class="list">Home</a>
+            </li>
+            <li class="navItem">
+              <a href="#live" class="list">Live</a>
+            </li>
+            <li class="navItem">
+              <a href="#member" class="list">Member</a>
+            </li>
+            <li class="navItem">
+              <a href="#songs" class="list">Songs</a>
+            <li class="navItem">
+              <a href="#contact" class="list">Contat</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="colorBtn">
+        <h5>Color Switch</h5>
+        <label for="switch" class="switch_label">
+          <div class="switch">
+            <input type="checkbox" id="switch">
+            <div class="circle"></div>
+            <div class="base"></div>
+            <!-- <div class="slider"></div> -->
+          </div>
+          <span class="title">OFF</span>
+        </label>
+      </div>
+
+       <!-- ハンバーガーボタン -->
+      <div class="hamburger_btn" id="js-hamburger">
+        <span class="hamburger_line hamburger_line_1"></span>
+        <span class="hamburger_line hamburger_line_2"></span>
+        <span class="hamburger_line hamburger_line_3"></span>
+      </div>
+
+      <!-- 半透明の背景 -->
+      <div class="black-bg" id="js-black-bg"></div>
+
+    </header>
+
+    <main>
+      <div class="main">
+        <div id="mainvisual">
+          <a id="home" class="anchor">
+            <img class="img" src="img/buglleCircus04.jpg">
+          </a>
+        </div>
+        <div class="section">
+          <!-- <section> -->
+            <article id="bgcolor01">
+              <a id="live" class="anchor"><h2>Live</h2></a>
+              <p>
+                <h4>Day</h4>
+              </p>
+              <p><a href="http://live-tora.com/access" target="_blank" class="tora">
+                2021年 12月 11日（Sat）<br>
+                at   尼崎 Tora　　#リンク</a>
+              </p>
+              <p>
+                <h4>Past</h4>
+              </p>
+              <p><a href="http://live-tora.com/access" target="_blank" class="tora">
+                2021年 10月 17日（Sun）<br>
+                at    尼崎 Tora 　　#リンク</a><br><br>
+                2018年 9月 3日<br>
+                at 心斎橋フットロック＆Beers
+              </p>
+            </article>
+
+            <article id="bgcolor02">
+              <a id="member" class="anchor"><h2>Member</h2></a>
+              <p>Drum フクジュ</p>
+              <p>Bass 岩村トシ</p>
+              <p>Vo & Guiter 岩村アニ</p>
+              <p>Guiter & PC, Vo サカモト</p>
+            </article>
+            <article id="bgcolor03">
+              <a id="songs" class="anchor"><h2>Songs</h2></a>
+              <div class="mov">
+                <div class="movie">
+                  <iframe width="426" height="240" src="https://www.youtube.com/embed/6wI_BrhpsJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="movie">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/7ZWBIAcuxiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="movie">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/esjY9sUR-BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </article>
+
+
+          <!-- </section> -->
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <script src="js/bcm.js"></script>
+        <a id="contact" class="anchor">
+          <h2><script>bcm();</script></h2>
+        </a>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
