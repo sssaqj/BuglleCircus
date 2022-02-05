@@ -292,7 +292,56 @@ input:checked ~ .circle {
 }
 .tora {
   display: inline-block;
-  color: #83a2e2;
+  color: #83a2e2;;
+}
+
+/* 2021_12 photos */
+.photos2021 {
+  background-color: #343655;
+}
+.bg-wrapper-u {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bg4 {
+  height: 30px;
+  justify-content: space-between;
+  width: 33%;
+}
+.pics20211211 {
+  height: 100%;
+  /* widht: auto; */
+  margin-top: 60px;
+}
+.pics2021 {
+  /* align: center; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  width: 100%;
+  height: 100%;
+  margin-left: 30px;
+}
+.pics2021 p {
+  justify-content: space-around;
+  flex: 1 50%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  min-width:355px;
+  padding: 0 30px;
+  align-items: center;
+
+}
+.pics2021 p img {
+  border-radius: 3px;
+}
+/* .pics2021:nth-of-type(3) {
+  max-width: 50%;
+  height: 10%;
+} */
+.pics2021 p:nth-of-type(5) {
+  align-items:baseline;
 }
 @media screen and (max-width: 768px) {
   .leadCopy {
